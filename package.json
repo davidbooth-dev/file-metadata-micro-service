@@ -1,0 +1,33 @@
+{
+	"name": "file_metadata",
+	"version": "0.0.1",
+	"description": "A REST API project, part of Free Code Camp's curriculum",
+	"main": "server.js",
+	"scripts": {		
+		"server": "nodenv . --exec nodemon",
+		"start": "npm run server"	
+	},
+	"devDependencies": {
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"express": "^5.0.0-alpha.2",
+		"mongodb": "^3.5.9",
+		"mongoose": "^5.9.23",
+		"multer": "^1.4.2",
+		"node-env-run": "^3.0.2",
+		"nodemon": "^2.0.4"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/davidbooth-dev/file-metadata-micro-service"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}
