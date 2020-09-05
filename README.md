@@ -1,5 +1,7 @@
+# FCC - API's and Micro Services
 
-# API Project - File Metadata Micro Service - FreeCodeCampCamp
+## File Metadata Micro Service an FCC Project
+
 ###    User stories:
 1. I can submit a form that includes a file upload.
 2. The form file input field  has the "name" attribute set to "upfile". We rely on this in testing.
